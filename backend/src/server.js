@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json()); 
 
 
-connectDb(); 
-
+connectDb()
+//I changed something from my local device
 app.get('/health', (req, res)=>{
     res.send("<h1>your server is connected and working fine</h1>")
 }); 
